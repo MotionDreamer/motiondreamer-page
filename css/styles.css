@@ -90,7 +90,7 @@ h2 {
 }
 
 .video-item iframe {
-  width: 100%;   /* Make the iframe take up the full width of its container */
+  width: auto;   /* Make the iframe take up the full width of its container */
   height: auto;  /* Maintain the aspect ratio automatically */
   display: block; /* Remove any inline spacing issues */
   border: none;  /* Remove any border if present */
