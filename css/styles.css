@@ -79,9 +79,9 @@ h2 {
 /* Video container styles */
 .video-row {
   display: flex;
-  justify-content: space-around; /* Ensure the videos are spaced evenly */
-  flex-wrap: wrap;               /* Wrap videos if they overflow horizontally */
-  gap: 20px;                     /* Add some spacing between video items */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .video-item {
@@ -89,11 +89,10 @@ h2 {
   text-align: center;
 }
 
-.video-item iframe {
-  width: auto;   /* Make the iframe take up the full width of its container */
-  height: auto;  /* Maintain the aspect ratio automatically */
-  display: block; /* Remove any inline spacing issues */
-  border: none;  /* Remove any border if present */
+.video-item video {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensures the video scales properly */
 }
 
 
