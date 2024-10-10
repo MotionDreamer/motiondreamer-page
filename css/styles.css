@@ -11,82 +11,55 @@ body {
 header {
   background-color: #ffffff;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0; /* Reduced padding */
   border-bottom: 1px solid #e5e5e5;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem; /* Reduced font size */
   font-weight: bold;
   color: #222;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Reduced font size */
   color: #555;
-}
-
-/* Navigation menu */
-nav {
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-nav ul {
-  list-style: none;
-  padding: 10px 0;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  color: #333;
-  font-weight: bold;
-  padding: 5px 10px;
-  transition: background-color 0.3s;
-}
-
-nav ul li a:hover {
-  background-color: #007bff;
-  color: white;
-  border-radius: 5px;
 }
 
 /* Section styles */
 section {
-  padding: 40px 20px;
-  max-width: 1200px;
+  padding: 20px 10px; /* Reduced padding */
+  max-width: 1000px;  /* Adjusted max width for less empty space */
   margin: auto;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem; /* Reduced font size */
   color: #222;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Reduced margin */
 }
 
 .comparison-description {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem; /* Reduced font size */
   color: #555;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Reduced margin */
 }
 
 /* Video container styles */
 .video-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* Adjust spacing between videos */
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 20px; /* Reduced spacing between rows */
 }
 
 .video-item {
-  width: 30%;
+  width: 48%; /* Increase video width to reduce white space */
   text-align: center;
+  margin-bottom: 15px; /* Reduced margin */
 }
 
 .video-item video {
@@ -95,10 +68,9 @@ h2 {
   object-fit: contain; /* Ensures the video scales properly */
 }
 
-
 footer {
   background-color: #f8f9fa;
   text-align: center;
-  padding: 10px 0;
+  padding: 5px 0; /* Reduced padding */
   border-top: 1px solid #e5e5e5;
 }
