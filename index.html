@@ -18,7 +18,7 @@
 
   <section id="comparisons">
     <h2>Comparisons with State-of-the-Art</h2>
-    <p class="comparison-description">Below are comparisons of our method against two others for two different reference motions:</p>
+    <p class="comparison-description">Below are comparisons of our method against two others for two different reference motions. </p>
 
     <!-- Row 1 for Reference Motion 1 -->
     <div class="video-row">
@@ -36,6 +36,9 @@
         </video>
         <p>Motion 2</p>
       </div>
+    </div>
+
+    <div class="video-row">
       <div class="video-item">
         <video controls>
           <source src="videos/hiphop2_diversity.mp4" type="video/mp4">
@@ -44,9 +47,6 @@
         <p>Diversity Comparison</p>
       </div>
     </div>
-
-
-    
   </section>
 
   <section id="more">
@@ -66,6 +66,9 @@
         </video>
         <p>punch and elbow</p>
       </div>
+    </div>
+
+    <div class="video-row">
       <div class="video-item">
         <video controls>
           <source src="videos/more_0020.mp4" type="video/mp4">
@@ -73,9 +76,6 @@
         </video>
         <p>house dancing 2</p>
       </div>
-    </div>
-
-    <div class="video-row">
       <div class="video-item">
         <video controls>
           <source src="videos/more_0000.mp4" type="video/mp4">
@@ -83,6 +83,10 @@
         </video>
         <p>breakdance</p>
       </div>
+    </div>
+
+    <div class="video-row">
+      
       <div class="video-item">
         <video controls>
           <source src="videos/more_0018.mp4" type="video/mp4">
@@ -111,19 +115,53 @@
         </video>
         <p>crowd motions</p>
       </div>
+    </div>
+    <div class="video-row">
+      <div class="video-item">
+        <video controls>
+          <source src="videos/edit_brakdance.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>crowd motions</p>
+      </div>
+    </div>
+    <div class="video-row">
       <div class="video-item">
         <video controls>
           <source src="videos/dance.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-        <p>beat-aligned dance</p>
+        <p>crowd motions</p>
       </div>
     </div>
   </section>
 
-  <footer>
-    <p>© 2024 My Project | <a href="https://github.com/my-project-page">GitHub Repo</a></p>
-  </footer>
+  <section id="failure">
+    <h2>Failure Cases</h2>
+    <p class="failure-description"> For some cases, some motions generated would be trapped in one internal motion mode. For very short and highly dynamic motion as case 2, artifacts occur and generations are not diverse enough. </p>
+    <div class="video-row">
+      <div class="video-item">
+        <video controls>
+          <source src="videos/failure_cases_1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>case 1</p>
+      </div>
+    </div>
+    <div class="video-row">
+      <div class="video-item">
+        <video controls>
+          <source src="videos/failure_case_2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>case 2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <footer>
+    <p>© MotionDreamer | <a href="https://github.com/my-project-page">GitHub Repo</a></p>
+  </footer> -->
 
   <script src="js/script.js"></script>
 </body>
